@@ -11,10 +11,10 @@ document.addEventListener('DOMContentLoaded', function () {
       e.preventDefault();
   
       // 🚨 Get input values
-      // added my personal name and message outputs
+      // getId's for personal message and course name
       const studentNameInput = document.getElementById('studentName');
-      const personalMessageInput = "I am an aspiring web developer!";
-      const courseNameInput = "Lee Maalgraaff"; 
+      const personalMessageInput = document.getElementById('personalMessage');
+      const courseNameInput = document.getElementById('courseName');
   
       const studentName = studentNameInput.value;
       const personalMessage = personalMessageInput.value;
