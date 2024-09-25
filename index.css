@@ -113,3 +113,9 @@ button:hover {
   background-color: #5d5f5e;
 }
 
+.logo{ 
+  width: 250px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px;
+}
